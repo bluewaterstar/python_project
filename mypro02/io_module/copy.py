@@ -23,3 +23,4 @@ for i  in str:
 # 关闭文件
 f.close()
 f1.close()
+
