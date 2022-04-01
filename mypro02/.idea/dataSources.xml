@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="root@10.162.201.62" uuid="ef4ffe1c-bdeb-4b4b-8d8a-c93c44e84f9c">
+      <driver-ref>java.sql.Driver</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>com.taosdata.jdbc.TSDBDriver</jdbc-driver>
+      <jdbc-url>jdbc:TAOS://10.162.201.62:6030</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="root@localhost" uuid="343408aa-b4a9-40d1-a456-1655adf37a00">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
+      <driver-properties>
+        <property name="serverTimezone" value="UTC" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="root@10.162.200.30" uuid="c9ed7e8c-4cbd-4504-be00-c735cad44522">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://10.162.200.30:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="root@10.162.200.52" uuid="e2164221-7658-4d79-a378-81eebd274469">
+      <driver-ref>java.sql.Driver</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>com.taosdata.jdbc.TSDBDriver</jdbc-driver>
+      <jdbc-url>jdbc:TAOS://10.162.200.52:6030</jdbc-url>
+    </data-source>
+  </component>
+</project>
